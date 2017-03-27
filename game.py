@@ -43,7 +43,7 @@ class Game:
             # Mapping between coordinates on game field and the indexes of diagonals that they belongs to
             # Using that property that:
             #   if points (x0,y0) and (x1, y1) on the same diagonal,
-            #   than |x0 -/+ y0| = |x1 -/+ y1|
+            #   then |x0 -/+ y0| = |x1 -/+ y1|
             self._diags_index = {}
             self._anti_diags_index = {}
             for i in range(size):
